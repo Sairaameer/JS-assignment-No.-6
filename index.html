@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECTS</title>
+</head>
+
+<body>
+
+    <!-- html code of Q4 -->
+
+    <h1>Population Records</h1>
+    <form id="recordForm">
+        <label>Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female<br>
+
+        <label>Address:</label>
+        <input type="text" id="address" required><br>
+
+        <label>Education:</label>
+        <select id="education" required>
+            <option value="">Select...</option>
+            <option value="High School">High School</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="PhD">PhD</option>
+        </select><br>
+
+        <label>Profession:</label>
+        <select id="profession" required>
+            <option value="">Select...</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Artist">Artist</option>
+        </select><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Records</h2>
+    <div id="records"></div>
+
+
+
+    <script src="program.js"></script>
+</body>
+
+</html>
